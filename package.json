@@ -1,0 +1,31 @@
+{
+  "name": "discord-active-developer-badge",
+  "version": "1.0.0",
+  "description": "Simple Discord bot to get the Discord \"Active Developer Badge\" and maintain eligibility.",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "eslint": "npx eslint --ext .ts ./src",
+    "eslint:fix": "npx eslint --ext .ts ./src --fix"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "eris": "^0.17.2",
+    "express": "^4.18.2",
+    "node-schedule": "^2.1.1",
+    "slash-create": "^5.2.0",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^14.14.37",
+    "@types/node-schedule": "^2.1.0",
+    "@typescript-eslint/eslint-plugin": "^4.19.0",
+    "@typescript-eslint/parser": "^4.19.0",
+    "eslint": "^7.15.0",
+    "eslint-config-prettier": "^7.0.0",
+    "eslint-plugin-prettier": "^3.3.0",
+    "prettier": "^2.2.1",
+    "typescript": "^4.2.3"
+  }
+}
